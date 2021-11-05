@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=KActivation
+Comment=Bind shortcuts to activate windows
+Icon=preferences-system-windows
+
+X-KDE-PluginInfo-Author=Hugh Gao
+X-KDE-PluginInfo-Email=hughgao01@gmail.com
+X-KDE-PluginInfo-Name=kactivation
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-License=GPL
+
+Type=Service
+X-KDE-ServiceTypes=KWin/Script
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
