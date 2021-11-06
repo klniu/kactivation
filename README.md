@@ -10,6 +10,3 @@ find the resourceClass and modify the registerShortcut to set your own applicati
 ```js
 registerShortcut("Activate FSearch", "Activate FSearch", "Super+x", function() { activateWindowByClass("fsearch"); });
 ```
-
-# TODO
-* waiting for the KWin stackingOrder Api in script
