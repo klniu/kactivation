@@ -20,7 +20,8 @@ function activateWindowByClass(className) {
 
 registerShortcut("Activate FSearch", "Activate FSearch", "Meta+x", function() { activateWindowByClass("fsearch"); });
 registerShortcut("Activate Google Chrome", "Activate Google Chrome", "Meta+c", function() { activateWindowByClass("google-chrome"); });
-registerShortcut("Activate Krusader", "Activate Krusader", "Meta+f", function() { activateWindowByClass("krusader"); });
+registerShortcut("Activate Krusader", "Activate Krusader", "", function() { activateWindowByClass("krusader"); });
+registerShortcut("Activate Dolphin", "Activate Dolphin", "Meta+f", function() { activateWindowByClass("dolphin"); });
 registerShortcut("Activate Datagrip", "Activate Datagrip", "Meta+g", function() { activateWindowByClass("jetbrains-datagrip"); });
 registerShortcut("Activate Intellij", "Activate Intellij", "Meta+s", function() { activateWindowByClass("jetbrains-idea"); });
 registerShortcut("Activate Webstorm", "Activate Webstorm", "Meta+d", function() { activateWindowByClass("jetbrains-webstorm"); });
