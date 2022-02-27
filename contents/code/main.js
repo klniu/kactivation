@@ -18,18 +18,18 @@ function activateWindowByClass(className) {
 }
 
 
-registerShortcut("Activate FSearch", "Activate FSearch", "Meta+x", function() { activateWindowByClass("fsearch"); });
-registerShortcut("Activate Google Chrome", "Activate Google Chrome", "Meta+c", function() { activateWindowByClass("google-chrome"); });
+registerShortcut("Activate FSearch", "Activate FSearch", "Ctrl+Alt+Shift+x", function() { activateWindowByClass("fsearch"); });
+registerShortcut("Activate Google Chrome", "Activate Google Chrome", "Ctrl+Alt+Shift+c", function() { activateWindowByClass("google-chrome"); });
 registerShortcut("Activate Krusader", "Activate Krusader", "", function() { activateWindowByClass("krusader"); });
-registerShortcut("Activate Dolphin", "Activate Dolphin", "Meta+f", function() { activateWindowByClass("dolphin"); });
-registerShortcut("Activate Datagrip", "Activate Datagrip", "Meta+g", function() { activateWindowByClass("jetbrains-datagrip"); });
-registerShortcut("Activate Intellij", "Activate Intellij", "Meta+s", function() { activateWindowByClass("jetbrains-idea"); });
-registerShortcut("Activate Webstorm", "Activate Webstorm", "Meta+d", function() { activateWindowByClass("jetbrains-webstorm"); });
-registerShortcut("Activate Krusader", "Activate Krusader", "Meta+f", function() { activateWindowByClass("krusader"); });
-registerShortcut("Activate Konsole", "Activate Konsole", "Meta+t", function() { activateWindowByClass("konsole"); });
-registerShortcut("Activate Nvim-qt", "Activate Nvim-qt", "Meta+r", function() { activateWindowByClass("nvim-qt"); });
-registerShortcut("Activate Okular", "Activate Okular", "Meta+p", function() { activateWindowByClass("okular"); });
-registerShortcut("Activate Windows", "Activate Windows", "Meta+m", function() { activateWindowByClass("remote-viewer"); });
-registerShortcut("Activate Wiznote", "Activate Wiznote", "Meta+v", function() { activateWindowByClass("wiznote"); });
-registerShortcut("Activate WPSOffice", "Activate WPSOffice", "Meta+w", function() { activateWindowByClass("wpsoffice"); });
-registerShortcut("Activate Wine Application", "Activate Wine Application", "Meta+Num+1", function() { activateWindowByClass("wine"); });
+registerShortcut("Activate Dolphin", "Activate Dolphin", "Ctrl+Alt+Shift+f", function() { activateWindowByClass("dolphin"); });
+registerShortcut("Activate Datagrip", "Activate Datagrip", "Ctrl+Alt+Shift+g", function() { activateWindowByClass("jetbrains-datagrip"); });
+registerShortcut("Activate Intellij", "Activate Intellij", "Ctrl+Alt+Shift+s", function() { activateWindowByClass("jetbrains-idea"); });
+registerShortcut("Activate Webstorm", "Activate Webstorm", "Ctrl+Alt+Shift+d", function() { activateWindowByClass("jetbrains-webstorm"); });
+registerShortcut("Activate Krusader", "Activate Krusader", "Ctrl+Alt+Shift+f", function() { activateWindowByClass("krusader"); });
+registerShortcut("Activate Konsole", "Activate Konsole", "Ctrl+Alt+Shift+t", function() { activateWindowByClass("konsole"); });
+registerShortcut("Activate Nvim-qt", "Activate Nvim-qt", "Ctrl+Alt+Shift+r", function() { activateWindowByClass("nvim-qt"); });
+registerShortcut("Activate Okular", "Activate Okular", "Ctrl+Alt+Shift+p", function() { activateWindowByClass("okular"); });
+registerShortcut("Activate Windows", "Activate Windows", "Ctrl+Alt+Shift+m", function() { activateWindowByClass("remote-viewer"); });
+registerShortcut("Activate Wiznote", "Activate Wiznote", "Ctrl+Alt+Shift+v", function() { activateWindowByClass("wiznote"); });
+registerShortcut("Activate WPSOffice", "Activate WPSOffice", "Ctrl+Alt+Shift+w", function() { activateWindowByClass("wpsoffice"); });
+registerShortcut("Activate Wine Application", "Activate Wine Application", "Ctrl+Alt+Shift+Num+1", function() { activateWindowByClass("wine"); });
