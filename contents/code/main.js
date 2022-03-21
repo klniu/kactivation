@@ -27,7 +27,8 @@ registerShortcut("Activate Intellij", "Activate Intellij", "Ctrl+Alt+Shift+s", f
 registerShortcut("Activate Webstorm", "Activate Webstorm", "Ctrl+Alt+Shift+d", function() { activateWindowByClass("jetbrains-webstorm"); });
 registerShortcut("Activate Krusader", "Activate Krusader", "Ctrl+Alt+Shift+f", function() { activateWindowByClass("krusader"); });
 registerShortcut("Activate Konsole", "Activate Konsole", "Ctrl+Alt+Shift+t", function() { activateWindowByClass("konsole"); });
-registerShortcut("Activate Nvim-qt", "Activate Nvim-qt", "Ctrl+Alt+Shift+r", function() { activateWindowByClass("nvim-qt"); });
+registerShortcut("Activate Nvim-qt", "Activate Nvim-qt", "Ctrl+Alt+Shift+n", function() { activateWindowByClass("nvim-qt"); });
+registerShortcut("Activate GVim", "Activate GVim", "Ctrl+Alt+Shift+r", function() { activateWindowByClass("gvim"); });
 registerShortcut("Activate Okular", "Activate Okular", "Ctrl+Alt+Shift+p", function() { activateWindowByClass("okular"); });
 registerShortcut("Activate Windows", "Activate Windows", "Ctrl+Alt+Shift+m", function() { activateWindowByClass("remote-viewer"); });
 registerShortcut("Activate Wiznote", "Activate Wiznote", "Ctrl+Alt+Shift+v", function() { activateWindowByClass("wiznote"); });
